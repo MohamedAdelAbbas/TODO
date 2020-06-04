@@ -14,11 +14,22 @@ class TodoVC: UIViewController {
     @IBOutlet weak var prioritySegment: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+        NetworkService.shared.getTodos()
+     }
 
 
     @IBAction func addTodoPressed(_ sender: UIButton) {
     }
 }
 
+extension TodoVC : UITableViewDelegate, UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        return UITableViewCell()
+    }
+    
+    
+}

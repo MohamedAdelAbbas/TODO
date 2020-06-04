@@ -16,6 +16,7 @@
 		76E4D5762488E9B200A45002 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E4D5752488E9B200A45002 /* TodoCell.swift */; };
 		76E4D5792488EF9800A45002 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E4D5782488EF9800A45002 /* ToDo.swift */; };
 		76E4D57B2488F09000A45002 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E4D57A2488F09000A45002 /* APIError.swift */; };
+		76E4D57F2488F1A700A45002 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E4D57E2488F1A700A45002 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		76E4D5752488E9B200A45002 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
 		76E4D5782488EF9800A45002 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		76E4D57A2488F09000A45002 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		76E4D57E2488F1A700A45002 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		76E4D55D2488DF7A00A45002 /* todo */ = {
 			isa = PBXGroup;
 			children = (
+				76E4D57D2488F17600A45002 /* Services */,
 				76E4D5742488E95000A45002 /* Model */,
 				76E4D5732488E94800A45002 /* View */,
 				76E4D5722488E93400A45002 /* Controller */,
@@ -98,6 +101,14 @@
 				76E4D57A2488F09000A45002 /* APIError.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		76E4D57D2488F17600A45002 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				76E4D57E2488F1A700A45002 /* NetworkService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 				76E4D5612488DF7A00A45002 /* SceneDelegate.swift in Sources */,
 				76E4D5762488E9B200A45002 /* TodoCell.swift in Sources */,
 				76E4D57B2488F09000A45002 /* APIError.swift in Sources */,
+				76E4D57F2488F1A700A45002 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
