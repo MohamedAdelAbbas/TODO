@@ -41,7 +41,7 @@
                                     <segment title="High"/>
                                 </segments>
                             </segmentedControl>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fqV-rk-YS1">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fqV-rk-YS1">
                                 <rect key="frame" x="20" y="186" width="374" height="676"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
@@ -109,6 +109,7 @@
                     <connections>
                         <outlet property="prioritySegment" destination="ft7-jz-x4o" id="VHo-7Y-dxR"/>
                         <outlet property="todoItemTF" destination="3F5-D5-QVy" id="mSG-ME-WYs"/>
+                        <outlet property="todoTable" destination="fqV-rk-YS1" id="fva-KX-CBU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

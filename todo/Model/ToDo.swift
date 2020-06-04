@@ -7,7 +7,13 @@
 //
 
 import Foundation
-struct ToDo: Codable {
+
+struct Todos: Codable {
+    let items : Array<Todo>
+    
+}
+
+struct Todo: Codable {
     let item: String?
     let priority: Int?
     
